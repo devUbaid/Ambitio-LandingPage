@@ -24,49 +24,7 @@ const Header = () => {
         scrolled ? "bg-white shadow-md py-2" : "bg-white py-4"
       }`}
     >
-      {/* Mobile status bar */}
-      <div className="absolute top-0 left-0 right-0 h-6 bg-white text-xs flex items-center px-4 text-gray-800 md:hidden">
-        <span>9:41</span>
-        <div className="ml-auto flex items-center space-x-1">
-          <span>
-            <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M1 4.5C1 4.5 3 2.5 8 2.5C13 2.5 15 4.5 15 4.5"
-                stroke="black"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-              <path
-                d="M1 7.5C1 7.5 3 5.5 8 5.5C13 5.5 15 7.5 15 7.5"
-                stroke="black"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-              <path
-                d="M1 10.5C1 10.5 3 8.5 8 8.5C13 8.5 15 10.5 15 10.5"
-                stroke="black"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              />
-            </svg>
-          </span>
-          <span className="ml-auto">
-            <svg width="18" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8z" fill="black"/>
-              <path d="M17 12c0 2.8-2.2 5-5 5s-5-2.2-5-5 2.2-5 5-5 5 2.2 5 5z" fill="black"/>
-            </svg>
-          </span>
-          <span>
-            <svg width="24" height="12" viewBox="0 0 24 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.5" y="0.5" width="21" height="11" rx="2.5" stroke="black" />
-              <rect x="2" y="2" width="18" height="8" rx="1" fill="black" />
-              <rect x="22" y="3.5" width="2" height="5" rx="1" fill="black" />
-            </svg>
-          </span>
-        </div>
-      </div>
-
-      <div className="mx-auto px-4 flex justify-between items-center mt-6 md:mt-0 max-w-[1250px]">
+      <div className="mx-auto px-4 flex justify-between items-center md:mt-0 max-w-[1250px]">
         {/* Logo */}
         <motion.a
           href="/"

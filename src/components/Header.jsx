@@ -24,6 +24,7 @@ const Header = () => {
         scrolled ? "bg-white shadow-md py-2" : "bg-white py-4"
       }`}
     >
+      
       <div className="mx-auto px-4 flex justify-between items-center md:mt-0 max-w-[1250px]">
         {/* Logo */}
         <motion.a

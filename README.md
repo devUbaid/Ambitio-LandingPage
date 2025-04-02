@@ -1,4 +1,4 @@
-# University Admissions Visualizer
+# AMBITIO Landing Page
 
 ![Hero Section Preview](./public/image.png)
 
@@ -26,5 +26,22 @@ An interactive visualization showcasing top universities and student success sto
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/university-visualizer.git
-   cd university-visualizer
+   git clone [https://github.com/yourusername/university-visualizer.git](https://github.com/devUbaid/Ambitio-LandingPage.git)
+   cd Ambitio-LandingPage
+### Install dependenciesnpm: npm install
+
+### Run the development server: npm start
+
+## Project Structure
+
+src/
+├── assets/
+│   ├── images/
+│   │   ├── universities/  # University logos
+│   │   └── students/      # Student avatars
+├── components/
+│   ├── Header.jsx         # Navigation component
+│   ├── Hero.jsx           # Main visualization  component
+│   └── Stats.jsx          # successful applications component
+├── App.jsx                # Main application
+└── index.jsx              # Entry point
